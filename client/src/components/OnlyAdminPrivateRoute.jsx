@@ -6,7 +6,7 @@ const OnlyAdminPrivateRoute = () => {
 
     const {currentUser} = useSelector((state)=> state.user)
 
-    return currentUser && currentUser.isAdmin ===true ? (
+    return currentUser ? (
         <Outlet />
       ) : (
         <Navigate to='/sign-in' />
