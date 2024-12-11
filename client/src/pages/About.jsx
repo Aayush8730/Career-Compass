@@ -3,9 +3,9 @@ import React from 'react';
 const About = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 md:px-8 lg:px-16">
-      <h1 className="text-3xl md:text-4xl font-extrabold mb-4">Welcome to Thirteen Blog!</h1>
+      <h1 className="text-3xl md:text-4xl font-extrabold mb-4">Welcome to Career Compass!</h1>
       <p className="text-lg md:text-xl mb-6">
-        At Thirteen Blog, we're passionate about fostering meaningful connections through the power of words. Our platform is meticulously crafted using the latest technologies, including the renowned MERN stack (MongoDB, Express.js, React.js, Node.js), ensuring a seamless and efficient experience for both creators and readers.
+Your ultimate placement preparation platform for IET DAVV. Discover company insights, read and share interview experiences, explore job openings, and access valuable placement resources. Personalize your journey with your dashboard and get ready to navigate your career with confidence!
       </p>
       <h2 className="text-xl md:text-2xl font-semibold mb-2">Features:</h2>
       <ol className="list-decimal pl-6 mb-6">
@@ -29,7 +29,7 @@ const About = () => {
         </li>
       </ol>
       <p className="text-lg md:text-xl">
-        Thirteen Blog is committed to providing a user-friendly platform where creators can express themselves freely, and readers can engage with enriching content. Join us on this journey of discovery, connection, and inspiration.
+        Career Compass is committed to providing a user-friendly platform where creators can express themselves freely, and readers can engage with enriching content. Join us on this journey of discovery, connection, and inspiration.
       </p>
     </div>
   );

@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <div>
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
-        <h1 className='text-3xl font-extrabold lg:text-6xl'>Welcome to Thirteen Blog</h1>
+        <h1 className='text-3xl font-extrabold lg:text-6xl'>Welcome to Career Compass</h1>
         <p className='text-gray-500 text-md sm:text-sm'>
-          Welcome to our blog website, where you can find a diverse range of content covering sports, politics, business, and aid-related topics. From the latest developments in sports to the pulse of politics, innovations in the business world, and discussions on aid and support issues, we offer comprehensive information and analysis to cater to everyone's interests.
+        Welcome to Career Compass, where you can explore a diverse range of content tailored to placement preparation. From detailed company insights and interview experiences to resources for skill-building and job openings, we provide comprehensive guidance to help you excel in your career journey. Whether you're looking for tips, trends, or inspiration, Career Compass has something for everyone aiming to succeed in the professional world.
         </p>
         <Link
           to='/search'

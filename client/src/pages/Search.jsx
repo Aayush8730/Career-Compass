@@ -131,9 +131,9 @@ export default function Search() {
               id='category'
             >
                         <option value='uncategorized'>Uncategorized</option>
-            <option value='Sport'>Sport</option>
-            <option value='Business'>Business</option>
-            <option value='Politics'>Politics</option>
+            <option value='Sport'>Intern</option>
+            <option value='Fulltime'>Fulltime</option>
+            <option value='Politics'>Selected</option>
             </Select>
           </div>
           <Button type='submit' outline gradientDuoTone='purpleToPink'>
